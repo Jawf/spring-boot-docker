@@ -6,3 +6,6 @@ spring-boot-app:
   environment:
    - "SPRING_PROFILES_ACTIVE=dev"
    - "DEBUG=false"
+  service:
+    db:
+      image:mysql
