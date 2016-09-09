@@ -1,4 +1,4 @@
-FROM java:8
+FROM daocloud.io/java:7
 
 MAINTAINER Florian Lopes <florian.lopes@outlook.com>
 
