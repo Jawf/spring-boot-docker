@@ -41,6 +41,12 @@ Stop and remove container if it's started:
 Rebuild the image and launch it:
 `docker-compose build && docker-compose up -d`
 
+## Bind database in annother container:
+``` yaml
+db:
+  image: mysql
+  ```
+
 ## Custom ports
 To change host ports, update the lines after `ports:` in `docker-compose.yml` file:
 ``` yaml 
