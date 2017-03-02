@@ -3,9 +3,11 @@ FROM daocloud.io/java:7
 MAINTAINER Florian Lopes <florian.lopes@outlook.com>
 
 VOLUME /tmp
+VOLUME /upload
 
 ENV APP_HOME /app
 ENV APP_JAR spring-boot-application.jar
+ENV profile prd
 
 COPY assets/* ${APP_HOME}/
 
