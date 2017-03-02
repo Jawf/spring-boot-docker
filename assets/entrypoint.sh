@@ -4,4 +4,4 @@ if [ $DEBUG ]; then
 fi
 
 java $ADDITIONAL_PARAMETERS \
-       -Djava.security.egd=file:/dev/./urandom -jar ${APP_HOME}/${APP_JAR}
+       -Djava.security.egd=file:/dev/./urandom -jar ${APP_HOME}/${APP_JAR} --spring.profiles.active=${profile}
